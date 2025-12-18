@@ -1,0 +1,17 @@
+<div class="relative min-h-screen w-full overflow-hidden flex flex-col">
+    <div class="absolute inset-0 z-0">
+        <slot name="background" />
+    </div>
+
+    <div class="relative z-10 flex flex-col min-h-screen">
+        <header class="w-full">
+        <slot name="navbar" />
+        </header>
+
+        <main class="flex-1 flex items-center">
+        <slot name="content" />
+        </main>
+    </div>
+
+    <slot name="menuOverlay" />
+</div>
