@@ -2,9 +2,9 @@ import { Button } from "@/components/ui/button"
 
 export function HeroContent() {
     return (
-        <div className="relative z-10 flex flex-1 items-center px-6 lg:px-12">
+        <div className="relative z-10 flex flex-1 items-start px-6 lg:px-32 pt-12 pb-12">
             <div className="max-w-3xl">
-                <h1 className="text-5xl font-bold text-white leading-tight lg:text-7xl mb-6 text-balance">
+                <h1 className="text-5xl font-bold text-white leading-none lg:text-8xl mb-6 text-balance">
                     Construye
                     <br />
                     un futuro
@@ -21,9 +21,9 @@ export function HeroContent() {
                         variant="outline"
                         className="border-2 border-white bg-white text-black hover:bg-white/90 font-semibold px-8 py-6 text-lg"
                     >
-                        Proyecto
+                        Proyectos
                     </Button>
-                    <Button className="bg-orange-500 hover:bg-orange-600 text-white font-semibold px-8 py-6 text-lg border-0">
+                    <Button className="from-primary hover:from-primary-hover text-white font-semibold px-8 py-6 text-lg border-0">
                         Contacto
                     </Button>
                 </div>

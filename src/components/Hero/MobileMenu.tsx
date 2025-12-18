@@ -25,7 +25,7 @@ export function MobileMenu({ isOpen, onClose }: MobileMenuProps) {
                 ))}
                 <Button
                     variant="outline"
-                    className="border-2 border-orange-500 bg-transparent text-orange-500 hover:bg-orange-500 hover:text-white font-semibold px-8 py-6 text-xl"
+                    className="border-2 border-orange-500 bg-white text-orange-500 hover:bg-orange-500 hover:text-white font-semibold px-8 py-6 text-xl"
                     onClick={onClose}
                 >
                     Contacto

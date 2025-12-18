@@ -13,10 +13,14 @@ export function Navigation({ isMenuOpen, onToggleMenu }: NavigationProps) {
         <nav className="relative z-50 flex items-center justify-between px-6 py-6 lg:px-12">
             {/* Logo */}
             <div className="flex items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center rounded-full border-4 border-orange-500 bg-linear-to-br from-orange-600 to-orange-700">
-                    <span className="font-bold text-white text-xl">JK</span>
+                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[rgba(38,29,12,1)] p-2">
+                    <img
+                        src="src/assets/Image/logo.png"
+                        alt="JK & Albercht Logo"
+                        className="h-full w-auto object-contain"
+                    />
                 </div>
-                <span className="text-white font-medium text-base lg:text-lg max-w-50 lg:max-w-none">
+                <span className="text-white font-bold text-sm lg:text-lg max-w-50 lg:max-w-none">
                     JK & Albercht Construcciones Generales
                 </span>
             </div>
@@ -34,7 +38,7 @@ export function Navigation({ isMenuOpen, onToggleMenu }: NavigationProps) {
                 ))}
                 <Button
                     variant="outline"
-                    className="border-2 border-orange-500 bg-transparent text-orange-500 hover:bg-orange-500 hover:text-white font-semibold px-6"
+                    className="bg-white border-2 border-primary text-primary hover:bg-primary hover:text-white font-semibold px-5"
                 >
                     Contacto
                 </Button>
