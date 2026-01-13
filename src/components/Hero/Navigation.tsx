@@ -13,9 +13,9 @@ export function Navigation({ isMenuOpen, onToggleMenu }: NavigationProps) {
         <nav className="relative z-50 flex items-center justify-between px-6 py-6 lg:px-12">
             {/* Logo */}
             <div className="flex items-center gap-3">
-                <div className="flex h-14 w-14 items-center justify-center rounded-full bg-[rgba(38,29,12,1)] p-2">
+                <div className="flex h-14 w-14 items-center justify-center rounded-full p-2">
                     <img
-                        src="src/assets/Image/logo.png"
+                        src="src/assets/Image/logo-blanco.png"
                         alt="JK & Albercht Logo"
                         className="h-full w-auto object-contain"
                     />
